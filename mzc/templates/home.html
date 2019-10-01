@@ -1,12 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
+
+{% extends 'base.html'%}
+{% block mycontent%}
 <body>
-    <h2>home page</h2>
-</body>
-</html>
+        <div class="container">
+            <div class="row">
+                <div class="col col-12 col-sm-6 col-md-4">
+    
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat excepturi quos inventore minima mollitia eos veniam dignissimos ipsa ut, at harum. Doloremque sapiente suscipit numquam beatae tempora non aliquam in.
+                </div>
+                <div class="col col-12 col-sm-6 col-md-8">
+                        <table class="table">
+                                <tr>
+                                    <td>Studentname</td>
+                                    <td><input type="text" class="form-control"></td>
+                                    
+                                </tr>
+                                <tr>
+                                <td>rollno</td>
+                                <td><input type="text" class="form-control"></td>
+                                </tr>
+                                <tr>
+                                    <td>admno</td>
+                                    <td><input type="text" class="form-control"></td>
+                                </tr>
+                                <tr>
+                                    <td> <button class="btn btn-success" value="submit" type="submit">submit</button></td>
+                                </tr>
+                            </table>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi sit ex quos nostrum perferendis? Cupiditate exercitationem illum optio libero, ipsum perspiciatis iure voluptate praesentium corrupti nisi quasi tempora aliquid recusandae.
+                </div>
+            </div>
+        </div>
+        
+    </body>
+{% endblock%}
